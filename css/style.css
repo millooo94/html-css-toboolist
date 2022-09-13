@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -31,8 +32,10 @@ h1 {
 
 .container-header {
     border-bottom: 1px solid #f6f8f9;
-    padding: 15px 60px 10px
+    padding: 15px 60px 10px 45px;
 }
+
+
 
 .button {
     display: inline-block;
