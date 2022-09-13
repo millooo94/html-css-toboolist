@@ -98,67 +98,10 @@ li {
     color: red;
 }
 
-
-
 .todo {
     display: inline-block;
     margin-left: 10px;
-}
-
-
-
-.blue-2 {
-    width: 60px;
-    background-color: #47adf1;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border-radius: 10px;  
-}
-
-.purple {
-    width: 70px;
-    background-color: #9c72e4;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border-radius: 10px;  
-}
-
-.green {
-    width: 75px;
-    background-color: #64c0a9;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border-radius: 10px;  
-}
-
-.orange {
-    width: 55px;
-    background-color: #f29e33;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border-radius: 10px;  
-}
-
-.pink {
-    width: 70px;
-    background-color: #d863a1;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border-radius: 10px;
-}
-
-.gold {
-    width: 50px;
-    background-color: #b0c926;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border-radius: 10px;
+    font-size: 18px;
 }
 
 .little-button {
@@ -167,5 +110,36 @@ li {
     color: white;
     border-radius: 10px;
 }
+
+.blue-2 {
+    width: 60px;
+    background-color: #47adf1;
+}
+
+.purple {
+    width: 70px;
+    background-color: #9c72e4;
+}
+
+.green {
+    width: 75px;
+    background-color: #64c0a9;
+}
+
+.orange {
+    width: 55px;
+    background-color: #f29e33;
+}
+
+.pink {
+    width: 70px;
+    background-color: #d863a1;
+}
+
+.gold {
+    width: 50px;
+    background-color: #b0c926;
+}
+
 
 
