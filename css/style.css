@@ -36,53 +36,136 @@ h1 {
 
 .button {
     display: inline-block;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-radius: 7px;
     font-size: 12px;
+    font-weight: bold;
     text-align: center;
     margin-right: 5px;
-
 }
 
 .blue {
     width: 80px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 0;
-    padding-left: 0;
     background-color: #47adf1;
     color: white;
+    border: 2px solid #47adf1;
 }
 
 .white {
-    width: 120px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 0;
-    padding-left: 0;
+    width: 100px;
     color: #c7ccd1;
     border: 2px solid #c7ccd1
 }
 
 
-.new-task {
+.division {
     margin-top: 30px;
     margin-left: 50px;
 }
 
-h2 {margin-bottom: 10px;}
+.main-list {
+    list-style-position: inside;
+    list-style-type: none;
+}
 
-ul {
-    list-style-type:symbols("†")
+.down-arrow {
+    font-size: 20px;
+    vertical-align: baseline;
+}
 
+h2 {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.secundary-list {
+    list-style-position: inside;
+    list-style-type: none;
+
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.checkmark {
+    color: green;
+}
+
+.ballot {
+    color: red;
 }
 
 
 
+.todo {
+    display: inline-block;
+    margin-left: 10px;
+}
 
 
-li::marker {
-    content: \F26B;
-    font-size: medium;
+
+.blue-2 {
+    width: 60px;
+    background-color: #47adf1;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;  
+}
+
+.purple {
+    width: 70px;
+    background-color: #9c72e4;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;  
+}
+
+.green {
+    width: 75px;
+    background-color: #64c0a9;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;  
+}
+
+.orange {
+    width: 55px;
+    background-color: #f29e33;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;  
+}
+
+.pink {
+    width: 70px;
+    background-color: #d863a1;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.gold {
+    width: 50px;
+    background-color: #b0c926;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.little-button {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
 }
 
 
