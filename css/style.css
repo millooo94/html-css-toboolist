@@ -36,16 +36,15 @@ h1 {
 
 .button {
     display: inline-block;
-    width:120px;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     margin-right: 5px;
 
 }
 
 .blue {
-    width: 90px;
+    width: 80px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 0;
@@ -64,10 +63,26 @@ h1 {
     border: 2px solid #c7ccd1
 }
 
-.new-task {
-    /* padding-top: 40px;
-    padding-left: 70px; */
 
+.new-task {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+h2 {margin-bottom: 10px;}
+
+ul {
+    list-style-type:symbols("†")
+
+}
+
+
+
+
+
+li::marker {
+    content: \F26B;
+    font-size: medium;
 }
 
 
